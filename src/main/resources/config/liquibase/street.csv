@@ -1,0 +1,916 @@
+id;name;city_id
+1;Alameda Recalde;1
+2;Alameda San mames;1
+3;Alameda Urquijo;1
+4;Alameda Mazarredo;1
+5;Alameda Arteche conde de;1
+6;Alameda Areilza doctor;1
+7;Alameda Revilla gregorio de la;1
+8;Alto Santo domingo;1
+9;Autopista Vasco-aragonesa a 68;1
+10;Autopista Bilbao-behobia a 8;1
+11;Avenida Abandoibarra;1
+12;Avenida Galindez jesus;1
+13;Avenida KirikiÑo;1
+14;Avenida Ravel maurice;1
+15;Avenida Bergara;1
+16;Avenida San adrian;1
+17;Avenida Garat txomin;1
+18;Avenida Zarandoa;1
+19;Avenida Zumalacarregui;1
+20;Avenida Universidades;1
+21;Avenida Madariaga;1
+22;Avenida Montevideo;1
+23;Avenida Prieto indalecio;1
+24;Avenida Ramon y cajal;1
+25;Avenida Catolicos reyes;1
+26;Avenida Lapurdi;1
+27;Avenida Aresti gabriel;1
+28;Avenida Ferrocarril del;1
+29;Avenida Zunzunegui juan antonio;1
+30;Avenida Arana sabino;1
+31;Avenida Gaiarre julian;1
+32;Avenida Casals pau;1
+33;Avenida Askatasuna;1
+34;Avenida Miraflores;1
+35;Avenida Zuberoa;1
+36;Avenida Lecuona pintor;1
+37;Avenida Aguirre lehendakari;1
+38;Avenida Enekuri;1
+39;Barriada Unceta parroco;1
+40;Barriada San miguel;1
+41;Barriada Sarrikue;1
+42;Barriada Miranda ignacio;1
+43;Barriada Lagunetxea;1
+44;Barrio Altamira;1
+45;Barrio Andramaria de begoÑa;1
+46;Barrio Asuncion;1
+47;Barrio Azurleku;1
+48;Barrio Betolatza;1
+49;Barrio Buia;1
+50;Barrio San anton;1
+51;Barrio Caserio larrazabal;1
+52;Barrio Caramelo monte;1
+53;Barrio San ignacio;1
+54;Barrio Uretamendi;1
+55;Barrio Zurbaran;1
+56;Barrio Zurbaranbarri;1
+57;Barrio Buiagoiti;1
+58;Barrio Cruz de la;1
+59;Barrio Dolaretxe;1
+60;Barrio Gardeazabal;1
+61;Barrio Iturrigorri;1
+62;Callejon Campo volantin;1
+63;Callejon Fuente de la;1
+64;Callejon Transito del;1
+65;Calle Abaitua eulalia;1
+66;Calle Abasolo;1
+67;Calle Abusu;1
+68;Calle Atxuri;1
+69;Calle Agarre;1
+70;Calle Aguero martin;1
+71;Calle Arrue pintores;1
+72;Calle Zarra telmo;1
+73;Calle Zuhatzu;1
+74;Calle Zugastinobia;1
+75;Calle Zugazagoitia julian;1
+76;Calle Zumarraga;1
+77;Calle Zurbaran;1
+78;Calle Arsuaga;1
+79;Calle Zamacola;1
+80;Calle Zankoeta;1
+81;Calle Zizeruena;1
+82;Calle Lekeitio;1
+83;Calle Zorrotzabaso;1
+84;Calle Zorrotzagana;1
+85;Calle Villarias;1
+86;Calle Virgen de begoÑa;1
+87;Calle Vista alegre;1
+88;Calle Epalza viuda de;1
+89;Calle Zabala bruno mauricio;1
+90;Calle Zabalbide;1
+91;Calle Uribitarte;1
+92;Calle Urizar;1
+93;Calle Urrutia;1
+94;Calle Eguiluz antonio medico;1
+95;Calle Victor del;1
+96;Calle Villabaso camilo;1
+97;Calle Ugarte;1
+98;Calle Uhagon felipe alcalde;1
+99;Calle Urazurrutia;1
+100;Calle Urgozo;1
+101;Calle Uribarri;1
+102;Calle Uribe laso mª victoria;1
+103;Calle Leguizamon tristan de;1
+104;Calle Trueba antonio de;1
+105;Calle Tutulu;1
+106;Calle Txirrita;1
+107;Calle Txotena;1
+108;Calle Ugalde;1
+109;Calle Tiboli;1
+110;Calle Tolosa;1
+111;Calle Torre de la;1
+112;Calle Torre gorostitzaga;1
+113;Calle Trauko;1
+114;Calle Zumaia;1
+115;Calle Constantino tenor;1
+116;Calle Guiard teofilo;1
+117;Calle Arrieta emilio;1
+118;Calle Isasi andres;1
+119;Calle Montserrat nuestra seÑora de;1
+120;Calle Garay juan de;1
+121;Calle Somera;1
+122;Calle Steer george;1
+123;Calle Telleria;1
+124;Calle Tenderia;1
+125;Calle Azpeitia sancho de;1
+126;Calle Antxeta juan de;1
+127;Calle Serantes;1
+128;Calle Unzue severo;1
+129;Calle Bolivar simon;1
+130;Calle Solokoetxe;1
+131;Calle Sollube;1
+132;Calle Sombrereria;1
+133;Calle Santo rosario;1
+134;Calle Santutxu;1
+135;Calle Santurtzi;1
+136;Calle San joaquin;1
+137;Calle San vicente;1
+138;Calle Sendeja;1
+139;Calle Santa clara;1
+140;Calle Santa lucia;1
+141;Calle Santa maria;1
+142;Calle Santa monica;1
+143;Calle Santander;1
+144;Calle Santiago de compostela;1
+145;Calle San francisquito;1
+146;Calle San isidro;1
+147;Calle San nicolas de olabeaga;1
+148;Calle San roke;1
+149;Calle Santa ana de bolueta;1
+150;Calle Santa cecilia;1
+151;Calle Sagarminaga;1
+152;Calle Sagrada familia;1
+153;Calle Salou;1
+154;Calle Salve la;1
+155;Calle San adrian;1
+156;Calle San francisco;1
+157;Calle Rodriguez arias;1
+158;Calle Ronda;1
+159;Calle Errondoko;1
+160;Calle Rubial ramon;1
+161;Calle Kalamua;1
+162;Calle Sagardui;1
+163;Calle Errekaldeberri;1
+164;Calle Azkue resurreccion maria de;1
+165;Calle Republica de begoÑa;1
+166;Calle Ribera;1
+167;Calle Rioja;1
+168;Calle Ripa;1
+169;Calle Quintana;1
+170;Calle OgoÑo;1
+171;Calle Ybarra rafaela;1
+172;Calle Libertad;1
+173;Calle Basterra ramon;1
+174;Calle Errekakoetxe;1
+175;Calle Etxenagusia pintor;1
+176;Calle Plentzia;1
+177;Calle Vitoria-gasteiz;1
+178;Calle Portal de zamudio;1
+179;Calle Prim;1
+180;Calle Principe;1
+181;Calle Guinea anselmo pintor;1
+182;Calle Arteta aurelio pintor;1
+183;Calle Zamacois eduardo pintor;1
+184;Calle Losada pintor;1
+185;Calle Zuloaga ignacio pintor;1
+186;Calle Zubiaurre pintores;1
+187;Calle Pelota;1
+188;Calle PeÑa lemona;1
+189;Calle Perez galdos;1
+190;Calle Perro del;1
+191;Calle Piedritas las;1
+192;Calle Larroque angel pintor;1
+193;Calle Paz la;1
+194;Calle Garaizar bernardino;1
+195;Calle Zabala vicente parroco;1
+196;Calle Astigarraga pedro;1
+197;Calle Ibarretxe pedro;1
+198;Calle Martinez artola pedro;1
+199;Calle Ondarroa;1
+200;Calle Orbegozo matilde;1
+201;Calle Zamarripa pablo;1
+202;Calle Pernet esteban padre;1
+203;Calle Lojendio padre;1
+204;Calle Julita berrojalbiz;1
+205;Calle Aralar;1
+206;Calle Olagorta;1
+207;Calle Olano;1
+208;Calle Zarate mikel;1
+209;Calle Ollerias altas;1
+210;Calle Ollerias bajas;1
+211;Calle Novia salcedo;1
+212;Calle Nueva;1
+213;Calle Larramendi padre;1
+214;Calle Ortiz alfau angel;1
+215;Calle Ortutxueta;1
+216;Calle Orueta obispo;1
+217;Calle Nadal goyo;1
+218;Calle Navarra;1
+219;Calle Nerbioi;1
+220;Calle Alcorta nicolas;1
+221;Calle Tellaetxe pintor;1
+222;Calle Norte particular del;1
+223;Calle Muros de san pedro;1
+224;Calle Arambarri musico;1
+225;Calle Sarasate musico;1
+226;Calle Usandizaga musico;1
+227;Calle Naja;1
+228;Calle Baiona;1
+229;Calle MaÑaricua andres eliseo de;1
+230;Calle Oiz monte;1
+231;Calle Saibigain monte;1
+232;Calle Monte elorriaga;1
+233;Calle Morgan;1
+234;Calle Mugica y butron;1
+235;Calle Ganekogorta monte;1
+236;Calle Ganeta monte;1
+237;Calle Intxorta monte;1
+238;Calle Izaro monte;1
+239;Calle Jata monte;1
+240;Calle Mandoia monte;1
+241;Calle Moncada;1
+242;Calle Gallastegui don claudio;1
+243;Calle Aldamiz monte;1
+244;Calle Arno monte;1
+245;Calle Eretza monte;1
+246;Calle Gabika monte;1
+247;Calle Mimbres los;1
+248;Calle Mina julia;1
+249;Calle Mina san luis;1
+250;Calle Miribilla;1
+251;Calle Mogrobejo nemesio;1
+252;Calle Monasterio;1
+253;Calle Matiko;1
+254;Calle Masustegi;1
+255;Calle Mena;1
+256;Calle Merced;1
+257;Calle Merida;1
+258;Calle Eguren enrique;1
+259;Calle Altxerri cueva;1
+260;Calle Laurencin marques;1
+261;Calle Puerto marques del;1
+262;Calle Barua picaza martin;1
+263;Calle Martzana;1
+264;Calle Ornilla doctor;1
+265;Calle Menendez y pelayo marcelino;1
+266;Calle Oreja marcelino;1
+267;Calle Diaz de haro maria;1
+268;Calle MuÑoz maria;1
+269;Calle Archer marino;1
+270;Calle Baldezate filomena;1
+271;Calle Iciar maestro;1
+272;Calle Mendiri maestro;1
+273;Calle Malmasin;1
+274;Calle Mandobide;1
+275;Calle Allende manuel;1
+276;Calle Izarra;1
+277;Calle Power luis;1
+278;Calle Alzaga toribio;1
+279;Calle Luzarra;1
+280;Calle Machin;1
+281;Calle Gonzalez damian maestro;1
+282;Calle Garcia rivero maestro;1
+283;Calle LozoÑo;1
+284;Calle Lutxana;1
+285;Calle Altube seber;1
+286;Calle Saturraran;1
+287;Calle BriÑas luis;1
+288;Calle Universidad de oÑati;1
+289;Calle Poza licenciado;1
+290;Calle Lezeaga;1
+291;Calle Lidon jose maria;1
+292;Calle LogroÑo;1
+293;Calle Lopez de maturana beata margarita;1
+294;Calle Loteria;1
+295;Calle Arrospide jon;1
+296;Calle UruÑuela leon de;1
+297;Calle Leizaola lehendakari;1
+298;Calle Lekanda;1
+299;Calle Lersundi;1
+300;Calle Xenpelar;1
+301;Calle Langaran;1
+302;Calle Larrakoetxe;1
+303;Calle Larraskitu;1
+304;Calle Larratundu;1
+305;Calle Larrinaga;1
+306;Calle Ledesma;1
+307;Calle Urquijo julio;1
+308;Calle Mendipe;1
+309;Calle Labayru;1
+310;Calle Laguna la;1
+311;Calle Lamana;1
+312;Calle Landaorlegi;1
+313;Calle Guisasola juan;1
+314;Calle Irigoyen juan de;1
+315;Calle Cosa juan de la;1
+316;Calle Otero blas de;1
+317;Calle Urbieta juan de;1
+318;Calle Bolivar elorduy julian;1
+319;Calle Ugarteburu jose maria;1
+320;Calle Barandiaran ayerbe jose miguel de;1
+321;Calle Olabarria jose;1
+322;Calle Goikolau cueva;1
+323;Calle Bilintx;1
+324;Calle Gardeazabal juan;1
+325;Calle Escuza jose maria;1
+326;Calle Olite;1
+327;Calle Encartaciones;1
+328;Calle SantimamiÑe cueva;1
+329;Calle Erronkari;1
+330;Calle Olavarri jose maria;1
+331;Calle Jardines;1
+332;Calle Ekain cuevas;1
+333;Calle Balparda gregorio;1
+334;Calle Berastegui;1
+335;Calle Acebal idigoras;1
+336;Calle Durrio francisco escultor;1
+337;Calle Iturriaga;1
+338;Calle Iturribarria;1
+339;Calle Iturribide;1
+340;Calle Iturriza;1
+341;Calle Jaen;1
+342;Calle Jardintxikerra;1
+343;Calle Irala;1
+344;Calle Iruarrizaga luis;1
+345;Calle Irumineta;1
+346;Calle Isleta;1
+347;Calle Iturburu;1
+348;Calle Iturralde;1
+349;Calle Ibaialde;1
+350;Calle IbaÑez de bilbao;1
+351;Calle Ibarrekolanda;1
+352;Calle Ibarruri dolores;1
+353;Calle Indautxu;1
+354;Calle Iparraguirre;1
+355;Calle Clara campoamor;1
+356;Calle Hernani;1
+357;Calle Heros;1
+358;Calle Hijas de la caridad;1
+359;Calle Huertas de la villa;1
+360;Calle Hurtado de amezaga;1
+361;Calle Gutierrez abascal r.(juan de la encina);1
+362;Calle Henao;1
+363;Calle Aguirre hermanos;1
+364;Calle Orixe;1
+365;Calle Campion arturo;1
+366;Calle Mar mediterraneo;1
+367;Calle Gortazar juan carlos de;1
+368;Calle Goya;1
+369;Calle Autonomia;1
+370;Calle Alonso bernardino guardia mpal.;1
+371;Calle Gipuzkoa;1
+372;Calle Gurtubay;1
+373;Calle Gimnasio;1
+374;Calle Goiko torre;1
+375;Calle Goitia;1
+376;Calle Gorbeia;1
+377;Calle Gordoniz;1
+378;Calle Gorliz;1
+379;Calle Tellagorri;1
+380;Calle Eguia general;1
+381;Calle Eraso general;1
+382;Calle Georgia;1
+383;Calle Salazar general;1
+384;Calle Tudela;1
+385;Calle Garcia salazar;1
+386;Calle Gardoqui cardenal;1
+387;Calle Gazteluondo;1
+388;Calle Biarritz;1
+389;Calle Castillo general;1
+390;Calle Concha general;1
+391;Calle Fraternidad la;1
+392;Calle Fray juan;1
+393;Calle Fueros;1
+394;Calle Galicia;1
+395;Calle Garaizar;1
+396;Calle Garate;1
+397;Calle Fernandez del campo;1
+398;Calle Navarro villoslada;1
+399;Calle Figuera angela;1
+400;Calle Fika;1
+401;Calle Etxepare;1
+402;Calle Fontecha y salazar;1
+403;Calle Euskalduna;1
+404;Calle Extremadura;1
+405;Calle Jimenez fernando miembro dya;1
+406;Calle Torre heliodoro de la;1
+407;Calle Serrate felipe;1
+408;Calle Guimon rezola doctor;1
+409;Calle Esperanza;1
+410;Calle Espinosa orive dr.;1
+411;Calle Basurtu estacion de;1
+412;Calle Zorrotza estacion de;1
+413;Calle Estrauntza;1
+414;Calle Etxezuri;1
+415;Calle Ercilla;1
+416;Calle Erdikoetxe;1
+417;Calle Eskurtze;1
+418;Calle Esnarritzaga;1
+419;Calle Ajuriaguerra juan;1
+420;Calle Esperanto;1
+421;Calle Enderika;1
+422;Calle Ibarreta enrique;1
+423;Calle Aguirre domingo de;1
+424;Calle Guezala antonio pintor;1
+425;Calle Epalza;1
+426;Calle Epetxa;1
+427;Calle Egileor;1
+428;Calle Elcano;1
+429;Calle Elexabarri;1
+430;Calle Elizalde;1
+431;Calle Ellacuria ignacio;1
+432;Calle Encarnacion;1
+433;Calle Carmelo gil doctores;1
+434;Calle Donostia-san sebastian;1
+435;Calle Dos de mayo;1
+436;Calle Durango;1
+437;Calle Echave alfredo de;1
+438;Calle EgaÑa;1
+439;Calle Alberca doctor;1
+440;Calle IruÑa;1
+441;Calle Diaz emparanza doctor;1
+442;Calle Entrecanales doctor;1
+443;Calle Benita asas;1
+444;Calle Landin felix doctor;1
+445;Calle Elizondo;1
+446;Calle Diputacion;1
+447;Calle Dique;1
+448;Calle Larrakotorre;1
+449;Calle Urkiola;1
+450;Calle Achucarro doctor;1
+451;Calle Sorkunde;1
+452;Calle Arenaza cueva;1
+453;Calle Txakolin;1
+454;Calle Ategorri txakolindegia;1
+455;Calle Regoyos dario de;1
+456;Calle Deprit lasa amadeo;1
+457;Calle Cortes;1
+458;Calle Echevarrieta cosme;1
+459;Calle Costa;1
+460;Calle Cristo del;1
+461;Calle Cruz de la;1
+462;Calle Medina de pomar;1
+463;Calle Viar juan;1
+464;Calle Concepcion;1
+465;Calle Mirasol conde;1
+466;Calle Picasso pablo;1
+467;Calle Cordeleria;1
+468;Calle Correo;1
+469;Calle Cintureria;1
+470;Calle Circo amateur del club deportivo;1
+471;Calle Ciudadela;1
+472;Calle Cocherito de bilbao;1
+473;Calle Colon de larreategui;1
+474;Calle Labegerie mitxel;1
+475;Calle Carniceria vieja;1
+476;Calle Caserio garro;1
+477;Calle Caserio landaburu;1
+478;Calle CastaÑos;1
+479;Calle Castresana luis de;1
+480;Calle Catalunya;1
+481;Calle Cantera;1
+482;Calle Capuchinos de basurtu;1
+483;Calle Macia francesc;1
+484;Calle Karmelo;1
+485;Calle Fagoaga tenor;1
+486;Calle Bonaparte luis luciano;1
+487;Calle Leguina calixto;1
+488;Calle Deustu canal de;1
+489;Calle Canarias islas;1
+490;Calle Cantabria;1
+491;Calle Cantalojas;1
+492;Calle Cantarranas;1
+493;Calle Buenos aires;1
+494;Calle Burgos;1
+495;Calle Butron;1
+496;Calle Caceres;1
+497;Calle Cadagua;1
+498;Calle Diez calixto;1
+499;Calle Bilbao la vieja;1
+500;Calle Bizkargi;1
+501;Calle Zalbide david bombero;1
+502;Calle Braille luis;1
+503;Calle Brouard santiago;1
+504;Calle Buen pastor;1
+505;Calle Alberdi benito;1
+506;Calle Bentazarra;1
+507;Calle Bernaola carmelo;1
+508;Calle Bertendona;1
+509;Calle Bidebarrieta;1
+510;Calle Bilbao izaurieta;1
+511;Calle Lepanto batalla de;1
+512;Calle Roncesvalles batalla de;1
+513;Calle Berriotxoa san valentin de;1
+514;Calle BegoÑazpi;1
+515;Calle Belostikale;1
+516;Calle Benidorm;1
+517;Calle Barraincua;1
+518;Calle Barrenkale;1
+519;Calle Barrenkalebarrena;1
+520;Calle Barroeta aldamar;1
+521;Calle Basurtubekoa;1
+522;Calle Padura batalla de;1
+523;Calle Balears illes;1
+524;Calle Ballets olaeta;1
+525;Calle Banco bilbao;1
+526;Calle Banco espaÑa;1
+527;Calle Aranzadi telesforo;1
+528;Calle Barinaga;1
+529;Calle Avila;1
+530;Calle Ayala canciller;1
+531;Calle Aznar santiago;1
+532;Calle Badajoz;1
+533;Calle Bailen;1
+534;Calle Bakio;1
+535;Calle Astarloa;1
+536;Calle Astillero;1
+537;Calle Asturias;1
+538;Calle Valle aureliano;1
+539;Calle Auntzetxeta;1
+540;Calle Aurrekoetxea;1
+541;Calle Arnotegi;1
+542;Calle ArtazuriÑa;1
+543;Calle Artalandio;1
+544;Calle Artatzamina;1
+545;Calle Artekale;1
+546;Calle Askao;1
+547;Calle Arbolagana;1
+548;Calle Arbolantxa;1
+549;Calle Arechaga;1
+550;Calle Arechavaleta;1
+551;Calle Arenal;1
+552;Calle Arginao;1
+553;Calle Viana principe de;1
+554;Calle Aragon;1
+555;Calle Arane;1
+556;Calle Araneko;1
+557;Calle Arbidea;1
+558;Calle Arbieto;1
+559;Calle Alzola pablo de;1
+560;Calle Anboto;1
+561;Calle Amistad;1
+562;Calle Amparo;1
+563;Calle Andalucia;1
+564;Calle Salces anselma de;1
+565;Calle Alicante;1
+566;Calle Allende particular;1
+567;Calle GaztaÑeta antonio almirante;1
+568;Calle Oquendo almirantes;1
+569;Calle Kanpazar alto;1
+570;Calle Altube;1
+571;Calle Aguirre-aguirre maria;1
+572;Calle Aguirre maximo;1
+573;Calle Araba;1
+574;Calle Albacete;1
+575;Calle Xalbador;1
+576;Calle Arregui ricardo;1
+577;Camino Atxetabidea;1
+578;Camino Aluzetabidea;1
+579;Camino Aranekobidea;1
+580;Camino Arbolantxabidea;1
+581;Camino Armotxabidea;1
+582;Camino Arraizbidea;1
+583;Camino Via vieja de lezama;1
+584;Camino Zorrozgoiti;1
+585;Camino Zubisikubidea;1
+586;Camino Zurbaranbidea;1
+587;Camino Tellaetxebidea;1
+588;Camino Trokabidea;1
+589;Camino Ugaskobidea;1
+590;Camino Venta alta;1
+591;Camino Bentabarribidea;1
+592;Camino Ventosa;1
+593;Camino Punta de la;1
+594;Camino Errekako;1
+595;Camino San felicisimo;1
+596;Camino Sanrokebidea;1
+597;Camino Saratxebidea;1
+598;Camino Seberetxebidea;1
+599;Camino Oruetabidea;1
+600;Camino Uskortabidea;1
+601;Camino Pagasarribidea;1
+602;Camino PeÑascal;1
+603;Camino Polvorin del;1
+604;Camino Ponton del;1
+605;Camino Luzuribidea;1
+606;Camino Mimbres los;1
+607;Camino Miramar;1
+608;Camino Molino de viento;1
+609;Camino Avril monte;1
+610;Camino Otxarkoagabidea;1
+611;Camino Ibarrekolanda;1
+612;Camino Irustabidea;1
+613;Camino Iturrigorribidea;1
+614;Camino Junquera de la;1
+615;Camino Landetabidea;1
+616;Camino Larraskitubidea;1
+617;Camino Bosque del;1
+618;Camino Kobetabidea;1
+619;Camino Etxezuribidea;1
+620;Camino Goiribibeaskoa;1
+621;Camino Ermudatzabidea;1
+622;Camino Ibarsusibidea;1
+623;Camino Artsenalbidea;1
+624;Camino Artazubidea;1
+625;Camino Artigabidea;1
+626;Camino Azkaraibidea;1
+627;Camino Berrizbidea;1
+628;Camino Bolintxubidea;1
+629;Canton Sota alejandro de la;1
+630;Canton Echevarria "camaron" julian;1
+631;Campa Artapeta;1
+632;Campa Berriz;1
+633;Campa Basarrate;1
+634;Campa Uribarri escuelas;1
+635;Campa Ibaizabal;1
+636;Campa San justo;1
+637;Carretera Basurtu-kastrexana;1
+638;Carretera Bilbao-galdakao;1
+639;Carretera Buia;1
+640;Carretera Circunvalacion;1
+641;Carretera Corredor del cadagua;1
+642;Carretera Enekuri-artxanda;1
+643;Carretera Zorrotza-kastrexana;1
+644;Carretera Artxanda-santo domingo;1
+645;Carretera Errekalde-larraskitu;1
+646;Carretera Ibarsusi-santo domingo;1
+647;Carretera Santa marina;1
+648;Carretera Santo domingo;1
+649;Carretera Santo domingo-el gallo;1
+650;Carretera Zazpilanda;1
+651;Cuesta Olabeaga;1
+652;Escalinatas Solokoetxe de;1
+653;Estrada Abaro;1
+654;Estrada Aldape;1
+655;Estrada Salces anselma de;1
+656;Estrada Beiti;1
+657;Estrada Bizkorta;1
+658;Estrada Caleros;1
+659;Estrada Zalbidea;1
+660;Estrada More;1
+661;Estrada San agustin;1
+662;Estrada Ventas;1
+663;Estrada Mala de;1
+664;Estrada Masustegi;1
+665;Estrada Mendiarte;1
+666;Estrada Mikol;1
+667;Estrada Miraflores;1
+668;Estrada Entrambasaguas;1
+669;Estrada Ezkerribai;1
+670;Estrada GiÑa;1
+671;Falda Artxanda;1
+672;Grupo Aixeona;1
+673;Grupo Aldapeta;1
+674;Grupo Amistad;1
+675;Grupo Arabella;1
+676;Grupo Bidegain;1
+677;Grupo BegoÑalde;1
+678;Grupo Zazpilanda;1
+679;Grupo Zubiria ybarra tomas;1
+680;Grupo Union begoÑesa;1
+681;Grupo Torreurizar;1
+682;Grupo Virgen del pinar;1
+683;Grupo Garamendi vicente rv.;1
+684;Grupo Sagarminaga;1
+685;Grupo San joaquin;1
+686;Grupo Santa ana;1
+687;Grupo Santiago;1
+688;Grupo Santo domingo de guzman;1
+689;Grupo Nueva aurora;1
+690;Grupo Obreros jabonera tapia;1
+691;Grupo Obreros talleres deusto;1
+692;Grupo Pinadia;1
+693;Grupo Popular la;1
+694;Grupo Remar;1
+695;Grupo Makaldi;1
+696;Grupo Cortes pedro medico mun.;1
+697;Grupo Mendigain;1
+698;Grupo Mirador a bilbao;1
+699;Grupo Gandasegui remigio mons.;1
+700;Grupo MontaÑo;1
+701;Grupo Buenavista;1
+702;Grupo Ciudad jardin;1
+703;Grupo Jardin de zorrotza;1
+704;Grupo Artazubekoa;1
+705;Grupo Ikastalde;1
+706;Grupo Inmaculada;1
+707;Gran via Lopez de haro d. diego;1
+708;Jardin Alazne lopez etxebarria;1
+709;Jardin Floresta la;1
+710;Jardin Salazar zubia l.;1
+711;Jardin Larrea carmelo;1
+712;Jardin Garate venerable herm.;1
+713;Jardines Arriaga emiliano de;1
+714;Jardines Gernika;1
+715;Jardines Intxaurtxueta;1
+716;Jardines Iparralde;1
+717;Jardines Berge y salcedo;1
+718;Jardines Albia;1
+719;Jardines Manning mrs. leah;1
+720;Jardines Garai;1
+721;Jardines Solokoetxe;1
+722;Muelle Astillero;1
+723;Muelle Campa de los ingleses;1
+724;Muelle Ibeni;1
+725;Muelle Martzana;1
+726;Muelle Sirgueras;1
+727;Muelle Churruca y brunet evaristo;1
+728;Muelle Merced de la;1
+729;Muelle Siervas de jesus;1
+730;Muelle Urazurrutia;1
+731;Muelle Olabeaga;1
+732;Muelle Sota ramon de la;1
+733;Monte Kobeta;1
+734;Monte Banderas;1
+735;Monte Pagasarri;1
+736;Plaza Agirre jose maria ertzaina;1
+737;Plaza Venezuela;1
+738;Plaza Almeria;1
+739;Plaza Somosierra alto;1
+740;Plaza Ametzola;1
+741;Plaza Arbidea;1
+742;Plaza Chavarri victor;1
+743;Plaza Baroja pio;1
+744;Plaza Zabalburu;1
+745;Plaza Zumarraga;1
+746;Plaza Haro;1
+747;Plaza Juan xxiii s.s.;1
+748;Plaza Donostia aita;1
+749;Plaza Lauaxeta;1
+750;Plaza Tres pilares;1
+751;Plaza Ugarteko;1
+752;Plaza Urizar;1
+753;Plaza San pedro;1
+754;Plaza San pio x;1
+755;Plaza Sancho de guerra santa m. josefa;1
+756;Plaza Saralegi;1
+757;Plaza San vicente;1
+758;Plaza Sarrikoalde;1
+759;Plaza Sagrado corazon de jesus;1
+760;Plaza Salve la;1
+761;Plaza San felicisimo;1
+762;Plaza San francisco javier;1
+763;Plaza San jose;1
+764;Plaza San miguel;1
+765;Plaza Guridi musico;1
+766;Plaza Negueruela celso;1
+767;Plaza Eguillor pedro;1
+768;Plaza Careaga placido;1
+769;Plaza Errekalde;1
+770;Plaza Lasalle santiago reverendo;1
+771;Plaza Nueva;1
+772;Plaza Matos manuel;1
+773;Plaza Meabe tomas;1
+774;Plaza Moraza;1
+775;Plaza Mozart;1
+776;Plaza Mujeres 25 de noviembre de las;1
+777;Plaza Landabaso;1
+778;Plaza Larrazabal;1
+779;Plaza Levante;1
+780;Plaza Echevarria luis;1
+781;Plaza Makua jose maria;1
+782;Plaza San martin de la ascension;1
+783;Plaza Aoiz/agoitz;1
+784;Plaza Enbeita "urretxindorra" kepa;1
+785;Plaza Olabarrieta eugenio;1
+786;Plaza Patxi aita;1
+787;Plaza Lazurtegui julio;1
+788;Plaza Kraus alfredo;1
+789;Plaza Ibarrekolanda;1
+790;Plaza Torres quevedo ingeniero;1
+791;Plaza Insausti "uzturre" jesus;1
+792;Plaza Iturriondo;1
+793;Plaza Jado;1
+794;Plaza Jaro de arana;1
+795;Plaza Zuricalday felipa;1
+796;Plaza Funicular del;1
+797;Plaza Garellano;1
+798;Plaza Latorre general;1
+799;Plaza Erkoreka ernesto;1
+800;Plaza Grua;1
+801;Plaza Migoya eliseo;1
+802;Plaza Elorrieta;1
+803;Plaza Circular;1
+804;Plaza Euskadi;1
+805;Plaza Echevarria federico;1
+806;Plaza Moyua federico;1
+807;Plaza Concordia;1
+808;Plaza Ensanche;1
+809;Plaza Convivencia de la;1
+810;Plaza Consulado de bilbao;1
+811;Plaza Corazon de maria;1
+812;Plaza Fleming doctor;1
+813;Plaza Cantera;1
+814;Plaza Indautxu;1
+815;Plaza Museo;1
+816;Plaza Valle del baztan;1
+817;Plaza Arenal celestino m. del;1
+818;Plaza Chillida eduardo;1
+819;Plaza Basurtugorta;1
+820;Plaza Bizkaia;1
+821;Plaza Echaniz bombero;1
+822;Plaza Unamuno miguel;1
+823;Plaza Casilla;1
+824;Plaza Campuzano emilio;1
+825;Plaza Bastida ricardo arqto.;1
+826;Plaza Arregui angela;1
+827;Plaza Arriaga;1
+828;Plaza Arriquibar;1
+829;Plaza Azoka;1
+830;Plaza Belategi;1
+831;Parque Ametzola;1
+832;Parque Bidarte;1
+833;Parque Encarnacion;1
+834;Parque Eskurtze;1
+835;Parque Etxebarria;1
+836;Parque Europa;1
+837;Parque Republica de abando;1
+838;Parque San antonio de iturrigorri;1
+839;Parque Ibaieder;1
+840;Parque Larreagaburu;1
+841;Parque Miribilla;1
+842;Parque Iturrizar casilda;1
+843;Paseo Arenal;1
+844;Paseo Campo volantin;1
+845;Paseo CaÑos de los;1
+846;Paseo Clave jose anselmo;1
+847;Paseo Estitxu;1
+848;Paseo Raimundo perez lezama;1
+849;Paseo Santa monica;1
+850;Paseo Moreno "pitxitxi" rafael;1
+851;Paseo Uribitarte;1
+852;Paseo Victoria de lecea eduardo;1
+853;Paseo Lucia yarza;1
+854;Puente Arrupe pedro;1
+855;Puente Euskalduna;1
+856;Puente Frank gehry;1
+857;Puente Salve la;1
+858;Puente San anton de;1
+859;Puente Ayuntamiento del;1
+860;Puente Merced de la;1
+861;Puente Deustu de;1
+862;Puente Ribera de la;1
+863;Puente Arenal del;1
+864;Puente Zubizuri;1
+865;Plazuela Encarnacion;1
+866;Plazuela San nicolas;1
+867;Plazuela Santiago;1
+868;Plazuela Santos juanes;1
+869;Plazuela Birjinetxe;1
+870;Plazuela Yolanda gonzalez;1
+871;Carrera Santiago de;1
+872;Calzadas Mallona de;1
+873;Ramal Olabeaga;1
+874;Ribera Elorrieta;1
+875;Ribera Botica vieja;1
+876;Ribera Deustu de;1
+877;Ribera Zorrotzaurre;1
+878;Rampas Uribitarte;1
+879;Rotonda Don bosco;1
+880;Subida Artxanda;1
+881;Subida Buenavista;1
+882;Subida Capuchinos de deustu;1
+883;Sendero Etxezuri;1
+884;Travesia Altube;1
+885;Travesia Ciudad jardin;1
+886;Travesia Concepcion;1
+887;Travesia Dieciseis de agosto;1
+888;Travesia Arbolantxa;1
+889;Travesia Escuelas de las;1
+890;Travesia Uribarri "c";1
+891;Travesia Uribitarte;1
+892;Travesia Virgen de begoÑa;1
+893;Travesia Zabala;1
+894;Travesia Ramon y cajal;1
+895;Travesia Sagarminaga;1
+896;Travesia Tiboli;1
+897;Travesia Trauko;1
+898;Travesia Uribarri "a";1
+899;Travesia Uribarri "b";1
+900;Travesia Iturribide;1
+901;Travesia Mallona de;1
+902;Travesia Masustegi;1
+903;Travesia Ollerias altas;1
+904;Travesia Ollerias bajas;1
+905;Travesia Ugaz parroco;1
+906;Travesia Espinos de los;1
+907;Travesia Estufa;1
+908;Travesia Euskalduna;1
+909;Travesia Goya;1
+910;Travesia Irala;1
+911;Travesia Iturriaga;1
+912;Tunel Artxanda-la salve;1
+913;Tunel Artxanda-ugasko;1
+914;Tunel La salve-ugasko;1
+915;Viaducto Miraflores-larreagaburu;1

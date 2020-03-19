@@ -1,0 +1,25 @@
+
+{
+    "covid19FightersApp": {
+        "street" : {
+            "home": {
+                "title": "Streets",
+                "createLabel": "建立一筆新的 Street",
+                "createOrEditLabel": "建立或編輯 Street",
+                "search": "搜尋 Street"
+            },
+            "created": "新的 Street 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Street 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Street 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Street {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Street"
+            },
+            "name": "Name",
+            "address": "Address",
+            "city": "City"
+        }
+    }
+}

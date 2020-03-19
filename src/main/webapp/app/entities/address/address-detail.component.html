@@ -1,0 +1,52 @@
+
+<div *ngIf="address">
+    <h2><span jhiTranslate="covid19FightersApp.address.detail.title">Address</span> {{address.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="covid19FightersApp.address.number">Number</span></dt>
+        <dd>
+            <span>{{address.number}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.address.floor">Floor</span></dt>
+        <dd>
+            <span>{{address.floor}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.address.postalCode">Postal Code</span></dt>
+        <dd>
+            <span>{{address.postalCode}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.address.note">Note</span></dt>
+        <dd>
+            <span>{{address.note}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.address.latitude">Latitude</span></dt>
+        <dd>
+            <span>{{address.latitude}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.address.longitude">Longitude</span></dt>
+        <dd>
+            <span>{{address.longitude}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.address.street">Street</span></dt>
+        <dd>
+            <div *ngIf="address.street">
+                <a [routerLink]="['/street', address.street?.id]">{{address.street?.id}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'address/'+ address.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

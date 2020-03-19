@@ -1,0 +1,27 @@
+
+{
+    "covid19FightersApp": {
+        "city" : {
+            "home": {
+                "title": "Cities",
+                "createLabel": "City erstellen",
+                "createOrEditLabel": "City erstellen oder bearbeiten",
+                "search": "Suche nach City"
+            },
+            "created": "City erstellt mit ID {{ param }}",
+            "updated": "City aktualisiert mit ID {{ param }}",
+            "deleted": "City gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll City {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "City"
+            },
+            "name": "Name",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "street": "Street",
+            "territorialDivision": "Territorial Division"
+        }
+    }
+}

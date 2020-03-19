@@ -1,0 +1,26 @@
+
+{
+    "covid19FightersApp": {
+        "territorialDivision" : {
+            "home": {
+                "title": "Territorial Divisions",
+                "createLabel": "创建新 Territorial Division",
+                "createOrEditLabel": "创建或编辑 Territorial Division",
+                "search": "查找 Territorial Division"
+            },
+            "created": "Territorial Division {{ param }} 创建成功",
+            "updated": "Territorial Division {{ param }} 更新成功",
+            "deleted": "Territorial Division {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Territorial Division {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Territorial Division"
+            },
+            "name": "Name",
+            "type": "Type",
+            "city": "City",
+            "country": "Country"
+        }
+    }
+}

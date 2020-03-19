@@ -1,0 +1,9 @@
+{
+    "covid19FightersApp": {
+        "TerritorialDivisionType" : {
+            "null": "",
+            "PROVINCE": "PROVINCE",
+            "STATE": "STATE"
+        }
+    }
+}

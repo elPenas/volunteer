@@ -1,0 +1,9 @@
+version: '2'
+services:
+    covid19fighters-elasticsearch:
+        image: elasticsearch:2.4.6
+        # volumes:
+        #     - ~/volumes/jhipster/COVID19Fighters/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300

@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.covid19figthers.volunteers",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "4.14.5",
+    "baseName": "COVID19Fighters",
+    "packageName": "com.covid19figthers.volunteers",
+    "packageFolder": "com/covid19figthers/volunteers",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "2e94e1461e8323fd7cb1b4155e1ddab69d08671e",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-elasticsearch-reindexer",
+        "version": "1.2.1"
+      },
+      {
+        "name": "generator-jhipster-database-backup",
+        "version": "1.0.7"
+      },
+      {
+        "name": "generator-jhipster-paypal",
+        "version": "1.0.5"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "ca",
+      "zh-cn",
+      "zh-tw",
+      "en",
+      "fr",
+      "gl",
+      "de",
+      "it",
+      "pt-pt"
+    ]
+  }
+}

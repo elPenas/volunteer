@@ -1,0 +1,40 @@
+
+<div *ngIf="city">
+    <h2><span jhiTranslate="covid19FightersApp.city.detail.title">City</span> {{city.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="covid19FightersApp.city.name">Name</span></dt>
+        <dd>
+            <span>{{city.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.city.latitude">Latitude</span></dt>
+        <dd>
+            <span>{{city.latitude}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.city.longitude">Longitude</span></dt>
+        <dd>
+            <span>{{city.longitude}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.city.territorialDivision">Territorial Division</span></dt>
+        <dd>
+            <div *ngIf="city.territorialDivision">
+                <a [routerLink]="['/territorial-division', city.territorialDivision?.id]">{{city.territorialDivision?.id}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'city/'+ city.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

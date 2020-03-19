@@ -1,0 +1,32 @@
+
+<div *ngIf="street">
+    <h2><span jhiTranslate="covid19FightersApp.street.detail.title">Street</span> {{street.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="covid19FightersApp.street.name">Name</span></dt>
+        <dd>
+            <span>{{street.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="covid19FightersApp.street.city">City</span></dt>
+        <dd>
+            <div *ngIf="street.city">
+                <a [routerLink]="['/city', street.city?.id]">{{street.city?.id}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'street/'+ street.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>
