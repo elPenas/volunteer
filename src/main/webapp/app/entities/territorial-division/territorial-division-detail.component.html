@@ -1,0 +1,40 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="territorialDivision">
+            <h2><span jhiTranslate="covid19FightersApp.territorialDivision.detail.title">Territorial Division</span> {{ territorialDivision.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="covid19FightersApp.territorialDivision.name">Name</span></dt>
+                <dd>
+                    <span>{{ territorialDivision.name }}</span>
+                </dd>
+                <dt><span jhiTranslate="covid19FightersApp.territorialDivision.type">Type</span></dt>
+                <dd>
+                    <span jhiTranslate="{{ 'covid19FightersApp.TerritorialDivisionType.' + territorialDivision.type }}">{{ territorialDivision.type }}</span>
+                </dd>
+                <dt><span jhiTranslate="covid19FightersApp.territorialDivision.country">Country</span></dt>
+                <dd>
+                    <div *ngIf="territorialDivision.country">
+                        <a [routerLink]="['/country', territorialDivision.country?.id, 'view']">{{ territorialDivision.country?.id }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/territorial-division', territorialDivision.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

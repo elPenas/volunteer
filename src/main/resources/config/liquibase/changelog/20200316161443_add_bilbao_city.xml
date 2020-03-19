@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <changeSet id="1584365419479-1" author="tarkil">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/data/country.csv"
+                  separator=";"
+                  tableName="country"/>
+    </changeSet>
+    <changeSet id="1584365419479-2" author="tarkil">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/data/territorial_division.csv"
+                  separator=";"
+                  tableName="territorial_division"/>
+    </changeSet>
+    <changeSet id="1584365419479-3" author="tarkil">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/data/city.csv"
+                  separator=";"
+                  tableName="city"/>
+    </changeSet>
+    <changeSet id="1584365419479-4" author="tarkil">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/data/street.csv"
+                  separator=";"
+                  tableName="street"/>
+    </changeSet>
+
+
+</databaseChangeLog>
+

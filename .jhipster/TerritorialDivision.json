@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "city",
+            "otherEntityRelationshipName": "territorialDivision",
+            "relationshipName": "city"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "country",
+            "otherEntityRelationshipName": "territorialDivision",
+            "relationshipName": "country",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "TerritorialDivisionType",
+            "fieldValues": "PROVINCE,STATE"
+        }
+    ],
+    "changelogDate": "20200316132336",
+    "entityTableName": "territorial_division",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "name": "TerritorialDivision",
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

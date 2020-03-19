@@ -1,0 +1,78 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-profile-heading" jhiTranslate="covid19FightersApp.profile.home.createOrEditLabel">Create or edit a Profile</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="covid19FightersApp.profile.birthday" for="field_birthday">Birthday</label>
+                    <div class="input-group">
+                        <input id="field_birthday" type="text" class="form-control" name="birthday" ngbDatepicker #birthdayDp="ngbDatepicker" formControlName="birthday"/>
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="birthdayDp.toggle()"><fa-icon icon="calendar-alt"></fa-icon></button>
+                        </span>
+                    </div>
+                    <div *ngIf="editForm.get('birthday')!.invalid && (editForm.get('birthday')!.dirty || editForm.get('birthday')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('birthday')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="covid19FightersApp.profile.genre" for="field_genre">Genre</label>
+                    <select class="form-control" name="genre" formControlName="genre" id="field_genre">
+                        <option value="FEMALE">{{ 'covid19FightersApp.Genre.FEMALE' | translate }}</option>
+                        <option value="MALE">{{ 'covid19FightersApp.Genre.MALE' | translate }}</option>
+                    </select>
+                    <div *ngIf="editForm.get('genre')!.invalid && (editForm.get('genre')!.dirty || editForm.get('genre')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('genre')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="covid19FightersApp.profile.address" for="field_address">Address</label>
+                    <select class="form-control" id="field_address" name="address" formControlName="address">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="addressOption.id === editForm.get('address')!.value?.id ? editForm.get('address')!.value : addressOption" *ngFor="let addressOption of addresses; trackBy: trackById">{{ addressOption.id }}</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="covid19FightersApp.profile.user" for="field_user">User</label>
+                    <select class="form-control" id="field_user" name="user" formControlName="user">
+                        <option *ngIf="!editForm.get('user')!.value" [ngValue]="null" selected></option>
+                        <option [ngValue]="userOption.id === editForm.get('user')!.value?.id ? editForm.get('user')!.value : userOption" *ngFor="let userOption of users; trackBy: trackById">{{ userOption.login }}</option>
+                    </select>
+                </div>
+                <div *ngIf="editForm.get('user')!.invalid && (editForm.get('user')!.dirty || editForm.get('user')!.touched)">
+                    <small class="form-text text-danger"
+                           *ngIf="editForm.get('user')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                    </small>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "covid19FightersApp": {
+    "territorialDivision": {
+      "home": {
+        "title": "Territorial Divisions",
+        "createLabel": "Criar novo(a) Territorial Division",
+        "createOrEditLabel": "Criar ou editar Territorial Division",
+        "search": "Procurar por Territorial Division",
+        "notFound": "Nenhum Territorial Divisions encontrado"
+      },
+      "created": "Um novo Territorial Division foi criado com o identificador {{ param }}",
+      "updated": "Territorial Division com identificador {{ param }} foi actualizado",
+      "deleted": "Territorial Division com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Territorial Division {{ id }}?"
+      },
+      "detail": {
+        "title": "Territorial Division"
+      },
+      "name": "Name",
+      "type": "Type",
+      "city": "City",
+      "country": "Country"
+    }
+  }
+}

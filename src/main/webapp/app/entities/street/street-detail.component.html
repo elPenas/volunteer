@@ -1,0 +1,36 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="street">
+            <h2><span jhiTranslate="covid19FightersApp.street.detail.title">Street</span> {{ street.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="covid19FightersApp.street.name">Name</span></dt>
+                <dd>
+                    <span>{{ street.name }}</span>
+                </dd>
+                <dt><span jhiTranslate="covid19FightersApp.street.city">City</span></dt>
+                <dd>
+                    <div *ngIf="street.city">
+                        <a [routerLink]="['/city', street.city?.id, 'view']">{{ street.city?.id }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/street', street.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

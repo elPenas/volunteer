@@ -1,0 +1,9 @@
+{
+  "covid19FightersApp": {
+    "Genre": {
+      "null": "",
+      "FEMALE": "FEMALE",
+      "MALE": "MALE"
+    }
+  }
+}

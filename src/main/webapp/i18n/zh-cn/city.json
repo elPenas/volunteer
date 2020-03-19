@@ -1,0 +1,27 @@
+{
+  "covid19FightersApp": {
+    "city": {
+      "home": {
+        "title": "Cities",
+        "createLabel": "创建新 City",
+        "createOrEditLabel": "创建或编辑 City",
+        "search": "查找 City",
+        "notFound": "No Cities found"
+      },
+      "created": "City {{ param }} 创建成功",
+      "updated": "City {{ param }} 更新成功",
+      "deleted": "City {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 City {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "City"
+      },
+      "name": "Name",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "street": "Street",
+      "territorialDivision": "Territorial Division"
+    }
+  }
+}

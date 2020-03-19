@@ -1,0 +1,25 @@
+{
+  "covid19FightersApp": {
+    "street": {
+      "home": {
+        "title": "Streets",
+        "createLabel": "Crear novo Street",
+        "createOrEditLabel": "Crear ou editar Street",
+        "search": "Search for Street",
+        "notFound": "No Streets found"
+      },
+      "created": "Un novo Street foi creado co identificador {{ param }}",
+      "updated": "Un Street foi actualizado co identificador {{ param }}",
+      "deleted": "Un Street foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Street {{ id }}?"
+      },
+      "detail": {
+        "title": "Street"
+      },
+      "name": "Name",
+      "address": "Address",
+      "city": "City"
+    }
+  }
+}

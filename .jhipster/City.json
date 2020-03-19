@@ -1,0 +1,43 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "street",
+            "otherEntityRelationshipName": "city",
+            "relationshipName": "street"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "territorialDivision",
+            "otherEntityRelationshipName": "city",
+            "relationshipName": "territorialDivision",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "Float"
+        }
+    ],
+    "changelogDate": "20200316132337",
+    "entityTableName": "city",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "name": "City",
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
